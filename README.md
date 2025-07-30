@@ -1,6 +1,6 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-<img src="01_post_web_intelligence_classification.png" alt="Your image title" width="350"/>
+<img src="images/01_post_web_intelligence_classification.png" alt="Your image title" width="350"/>
 
 # Web Intelligence - Classification Challenge
 Organized by EuropeanStatisticsAwards
@@ -12,6 +12,8 @@ Link to the competition: https://statistics-awards.eu/competitions/12
 Project part of the [TNO Health and Work AI Lab](https://www.tno.nl/en/healthy/digital-health/health-work-ai-lab/).
 
 Description of the solution can be found here: [Approach Description](classification_approach_description.pdf).
+
+The python for applying this pipeline can be found here: [JobCoding.py](code/JobCoding.py). 
 
 This automated text coding system was also deployed as a [Dash Python](https://dash.plotly.com/) Application and is currently hosted in the [Diamonds Platform](https://diamonds.tno.nl/).
 
@@ -38,4 +40,4 @@ Gino Kalkman
 
 Team name: TNO_AI_LAB
 
-<img src="TNO.png" alt="Your image title" width="250"/>
+<img src="images/TNO.png" alt="Your image title" width="250"/>
