@@ -33,9 +33,13 @@ More information about ISCO here: https://ilostat.ilo.org/methods/concepts-and-d
 
 
 ##  Authors
+
 Calvin Ge
+
 Gino Kalkman
+
 [Sadegh Shahmohammadi](https://github.com/SadeghNick)
+
 [Xavier Sá Castro Pinho](https://github.com/xavierpinho23/)
 
 Team name: TNO_AI_LAB
