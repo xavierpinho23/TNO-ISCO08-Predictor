@@ -9,9 +9,11 @@ Link to the competition: https://statistics-awards.eu/competitions/12
 
 # TNO-ISCO08-Predictor
 
-Project part of the Artifical Intelligence Lab of the TNO Unit Health and Work, 2024.
+Project part of the [TNO Health and Work AI Lab](https://www.tno.nl/en/healthy/digital-health/health-work-ai-lab/).
 
-Description of the solution can be found here: {link to the methdolodical report}
+Description of the solution can be found here: [Approach Description](classification_approach_description.pdf).
+
+This automated text coding system was also deployed as a [Dash Python](https://dash.plotly.com/) Application and is currently hosted in the [Diamonds Platform](https://diamonds.tno.nl/).
 
 ## Dataset Overview
 
@@ -25,17 +27,15 @@ The International Classification of Occupations (ISCO) seeks to facilitate inter
 
 The current version, known as ISCO-08, was published in 2008 and is the fourth iteration, following ISCO-58, ISCO-68 and ISCO-88. 
 
-More information here: https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/
+More information about ISCO here: https://ilostat.ilo.org/methods/concepts-and-definitions/classification-occupation/.
 
-## Repository
-This repository is structured as follows:
-- [`data`](data/) Contains the data.
-- ...
 
 ##  Authors
 Calvin Ge
 Gino Kalkman
 [Sadegh Shahmohammadi](https://github.com/SadeghNick)
 [Xavier Sá Castro Pinho](https://github.com/xavierpinho23/)
+
+Team name: TNO_AI_LAB
 
 <img src="TNO.png" alt="Your image title" width="250"/>
