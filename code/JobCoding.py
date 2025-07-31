@@ -10,7 +10,6 @@ from itertools import islice
 import re
 import os
 
-
 # Define Azure OpenAI client
 client = AzureOpenAI(
     api_key        = os.getenv('AZURE_OPENAI_API_KEY'),
@@ -18,11 +17,9 @@ client = AzureOpenAI(
     api_version    = os.getenv('AZURE_OPENAI_VERSION')
 )
 
-
 # Import data from ISCO 2008 ontology
 isco08_data = pd.read_excel("./data/ISCO08_all_groups.xlsx", "complete list")
 isco08_jobs = pd.read_excel("./data/ISCO08 coding indexes (various languages).xlsx", "English index")
-
 
 ################ Generate embeddings for ISCO08 data ###################
 # The embedding for an ISCO code is based on the description of that 
@@ -75,22 +72,17 @@ with tqdm(total = len(isco08_jobs)) as pbar:
 
         pbar.update(1)
 
-
-# Second, generate an embedding based on ISCO description + jobs
-
 # Use Azure OpenAI client to generate embedding for a phrase
 def get_gpt_embedding(phrase):
     embedding = client.embeddings.create(input = [phrase], model = 'text-embedding-3-large').data[0].embedding
     return embedding
 
-
+# Second, generate an embedding based on ISCO description + jobs
 with tqdm(total = len(isco_data_merged)) as pbar:
     for isco_code, merged_data in isco_data_merged.items():
         natural_text = merged_data['description'] + '\n' + '\n'.join(merged_data['jobs'])
         isco_data_merged[isco_code]['embedding'] = get_gpt_embedding(natural_text)
-
         pbar.update(1)
-
 
 # Write ISCO data with embeddings to a txt file
 output_file = './data/isco08_embeddings_based_on_description_and_example_jobs.txt'
