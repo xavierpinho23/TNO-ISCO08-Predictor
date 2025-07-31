@@ -9,7 +9,9 @@ Link to the competition: https://statistics-awards.eu/competitions/12
 
 # TNO-ISCO08-Predictor
 
-Project part of the [TNO Health and Work AI Lab](https://www.tno.nl/en/healthy/digital-health/health-work-ai-lab/).
+TNO is a trusted, independent, and pioneering applied science and technology organisation in the Netherlands. Our mission is to create impactful innovations for the sustainable wellbeing and prosperity of society. For more, visit us at [www.tno.nl/en](url)  
+
+Our team members and original concept for this work are part of the [TNO Health and Work AI Lab](https://www.tno.nl/en/healthy/digital-health/health-work-ai-lab/).
 
 Description of the solution can be found here: [Approach Description](classification_approach_description.pdf).
 
