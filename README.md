@@ -36,9 +36,9 @@ More information about ISCO here: https://ilostat.ilo.org/methods/concepts-and-d
 
 ##  Authors
 
-Calvin Ge
+[Calvin Ge](https://github.com/cb-ge)
 
-Gino Kalkman
+[Gino Kalkman](https://github.com/GinoKalkman)
 
 [Sadegh Shahmohammadi](https://github.com/SadeghNick)
 
